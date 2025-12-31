@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+env/
+*.virtualenv
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+
+# --- Build / Distribution ---
+build/
+dist/
+*.whl
+
+# --- PyTorch / Machine Learning ---
+*.pt
+*.pth
+checkpoints/
+runs/
+tensorboard/
+wandb/
+lightning_logs/
+
+# --- OS / Editor trash ---
+.DS_Store
+Thumbs.db
+
+# --- IDE settings ---
+.vscode/
+.idea/
+
+# --- Cache / Temp ---
+cache/
+tmp/
+temp/
+
+# --- RL / Caching specific ---
+replay_buffer/
+sim_results/
+logs/
+
+data/
