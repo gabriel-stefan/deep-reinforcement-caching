@@ -1,0 +1,16 @@
+name: caching_deeprl
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - pip
+  - pip:
+    - gymnasium
+    - stable-baselines3
+    - torch

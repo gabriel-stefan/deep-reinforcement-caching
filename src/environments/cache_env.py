@@ -43,6 +43,7 @@ class CacheEnv(gym.Env):
         self.adaptive_rewards = adaptive_rewards
         
         self.k_candidates = k_candidates
+        self.max_evictions = 5  
         self.render_mode = render_mode
         self.loader = data_loader
         
